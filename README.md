@@ -1,6 +1,6 @@
 # Detection of Facial Landmarks Using Local-Based Information
 
-Last Page Update: **26/03/2018**
+Last Page Update: **03/04/2018**
 
 
 This paper proposes a method for the detection of 19 facial points of interest (landmarks). Most methods available in the art for detecting facial points fall into two main categories: global and local. Global methods are usually able to detect various landmarks simultaneously with robustness while local landmarks can often detect more quickly. The method presented is based on local information and is composed of several stages of processing to the detection of landmarks that describe eyes, eyebrows and mouth. The experimental results demonstrate that the proposed method compared to the results showed technical ASM compatible. 
@@ -11,7 +11,6 @@ Method Overview
 <p align="center"><img src="https://raw.githubusercontent.com/carolinepacheco/FacialLandmarks/master/docs/overview.png" border="0" /></p>
 <center> <small>  (a) Original face (b) Detection of the face by the Viola-Jones method (c) Detection of regions of interest.  </center>
 
-(a) Original face (b) Detection of the face by the Viola-Jones method (c) Detection of regions of interest.
 
 Face and Facial Regions Detection
 ---------------------------------------------------
@@ -47,7 +46,7 @@ Citation
 If you use this code for your publications, please cite it as:
 ```
 @inproceedings{silva Caroline
-author    = {Silva, Caroline and Bouwmans, Thierry and Frelicot, Carl},
+author    = {Silva, Caroline; Schnitman, Leizer ;  Oliveira, Luciano},
 title     = {Detection of Facial Landmarks Using Local-Based Information},
 booktitle = {The 19th edition of the Brazilian Conference on Automation},
 year      = {2012},
