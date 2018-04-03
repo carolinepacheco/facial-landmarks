@@ -9,7 +9,7 @@ This paper proposes a method for the detection of 19 facial points of interest (
 Method Overview
 ---------------------------------------------------
 <p align="center"><img src="https://raw.githubusercontent.com/carolinepacheco/FacialLandmarks/master/docs/overview.png" border="0" /></p>
-<center> <small>  (a) Original face (b) Detection of the face by the Viola-Jones method (c) Detection of regions of interest.  </center>
+<p align="center"> (a) Original face (b) Detection of the face by the Viola-Jones method (c) Detection of regions of interest. </p>
 
 
 Face and Facial Regions Detection
@@ -22,7 +22,7 @@ Facial Landmarks Extraction
 After facial regions detection, several image processing methods (e.g. histogram equalization, thresholding, color conversion, morphological operations, ...) are used to extract 20 facial landmarks.
 
 <p align="center"><img src="https://raw.githubusercontent.com/carolinepacheco/FacialLandmarks/master/docs/landmarks.png" border="0" width="50%" height="50%" /></p>
-<center> <small>  Facial Landmarks Detection.  </center>
+<p align="center"> Facial Landmarks Detection. </p>
 
 
 Experimental Results
@@ -51,7 +51,7 @@ If you use this code for your publications, please cite it as:
 @inproceedings{silva Caroline
 author    = {Silva, Caroline; Schnitman, Leizer ;  Oliveira, Luciano},
 title     = {Detection of Facial Landmarks Using Local-Based Information},
-booktitle = {19th edition of the Brazilian Conference on Automation},
+booktitle = {Brazilian Conference on Automation},
 year      = {2012},
 url       = {https://www.researchgate.net/publication/271825271_Detection_of_Facial_Landmarks_Using_Local-Based_Information}
 ```
