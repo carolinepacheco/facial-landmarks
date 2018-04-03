@@ -21,6 +21,9 @@ Facial Landmarks Extraction
 ---------------------------------------------------
 After facial regions detection, several image processing methods (e.g. histogram equalization, thresholding, color conversion, morphological operations, ...) are used to extract 20 facial landmarks.
 
+<p align="center"><img src="https://raw.githubusercontent.com/carolinepacheco/FacialLandmarks/master/docs/landmarks.png" border="0" /></p>
+<center> <small>  Facial Landmarks Detection.  </center>
+
 
 Experimental Results
 ---------------------------------------------------
