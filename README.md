@@ -3,7 +3,7 @@
 Last Page Update: **03/04/2018**
 
 
-This paper proposes a method for the detection of 19 facial points of interest (landmarks). Most methods available in the art for detecting facial points fall into two main categories: global and local. Global methods are usually able to detect various landmarks simultaneously with robustness while local landmarks can often detect more quickly. The method presented is based on local information and is composed of several stages of processing to the detection of landmarks that describe eyes, eyebrows and mouth. The experimental results demonstrate that the proposed method compared to the results showed technical ASM compatible. 
+This work proposes a method for the detection of 19 facial points of interest (landmarks). Most methods available in the art for detecting facial points fall into two main categories: global and local. Global methods are usually able to detect various landmarks simultaneously with robustness while local landmarks can often detect more quickly. The method presented is based on local information and is composed of several stages of processing to the detection of landmarks that describe eyes, eyebrows and mouth. The experimental results demonstrate that the proposed method compared to the results showed technical ASM compatible. 
 
 
 Method Overview
