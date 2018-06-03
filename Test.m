@@ -28,7 +28,7 @@ I = imresize(I, [224,224]);
 %% landmark detection
 
 % landmark setting to Eyes and Mouth (4 and 5)
-landconf = 4;
+landconf = 5;
 
 % landmarks seting Eyebrows (only 2)
 landconfEyebrow = 2;
@@ -61,3 +61,10 @@ showsLandmarks(landRightEye,rightEyeCont,RightEye,landconf);
 showsLandmarks(landMouth,MouthCont,Mouth,landconf);
 showsLandmarks(landLeftEyebrow,leftEyebrowCont,LeftEyebrow,landconfEyebrow);
 showsLandmarks(landRightEyebrow,RightEyebrowCont,RightEyebrow,landconfEyebrow);
+
+%% returns the coordinates of the landmarks (eyes, mouth and eyebrows)
+coordLeftEye = landmarks(landLeftEye,leftEyeCont,LeftEye,landconf);
+coordRightEye = landmarks(landRightEye,rightEyeCont,RightEye,landconf);
+coordMouth = landmarks(landMouth,MouthCont,Mouth,landconf);
+coordLeftEyebrow = landmarks(landLeftEyebrow,leftEyebrowCont,LeftEyebrow,landconfEyebrow);
+coordRightEyebrow = landmarks(landRightEyebrow,RightEyebrowCont,RightEyebrow,landconfEyebrow);
